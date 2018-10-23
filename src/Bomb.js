@@ -12,7 +12,7 @@ export default class Bomb extends React.Component {
     return(
       <div>
 
-        if (secondsLeft === 0) {
+        if (this.state.secondsLeft === 0) {
           <p>Boom!</p>
         } else {
           <p>{this.state.secondsLeft} seconds left before I go boom!</p>
